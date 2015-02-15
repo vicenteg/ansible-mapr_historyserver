@@ -1,0 +1,4 @@
+---
+# tasks file for ansible-mapr_historyserver
+- name: install historyserver
+  yum: name=mapr-historyserver state=present
