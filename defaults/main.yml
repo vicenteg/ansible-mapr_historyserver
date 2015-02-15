@@ -1,2 +1,4 @@
 ---
 # defaults file for ansible-mapr_historyserver
+
+proxy_env: { }
