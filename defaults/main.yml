@@ -1,4 +1,3 @@
 ---
 # defaults file for ansible-mapr_historyserver
-yarn_enabled: True
 proxy_env: { }
