@@ -1,7 +1,7 @@
 ---
 # tasks file for ansible-mapr_historyserver
 - name: install historyserver
-  sudo: yes
-  sudo_user: root
+  become: yes
+  become_user: root
   yum: name=mapr-historyserver state=present
   environment: proxy_env
