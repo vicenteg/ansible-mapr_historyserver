@@ -4,4 +4,4 @@
   become: yes
   become_user: root
   yum: name=mapr-historyserver state=present
-  environment: proxy_env
+  environment: '{{proxy_env}}'
